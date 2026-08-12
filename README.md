@@ -1,15 +1,10 @@
-# homebrew-tap
+# heisensim tap
 
-Homebrew formulae for [heisensim](https://github.com/heisensim/heisensim) — deterministic chaos testing for Kubernetes.
+Homebrew tap for heisensim.
 
-## Install
+## Installation
 
-```bash
-brew install heisensim/tap/heisensim
-```
-
-## Update
-
-```bash
-brew upgrade heisensim
+```sh
+brew tap heisensim/tap
+brew install heisensim
 ```
