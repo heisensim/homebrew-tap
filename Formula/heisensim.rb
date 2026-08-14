@@ -1,27 +1,27 @@
 class Heisensim < Formula
   desc "The Heisenbug Simulator — deterministic chaos testing for Kubernetes"
   homepage "https://heisensim.dev"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     on_arm do
       url "https://github.com/heisensim/heisensim/releases/download/v#{version}/heisensim-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "b8b9dcaa5ddb864e5a382a770133459671e3a1f49d0aa4f0aac82a25dfaed41a"
+      sha256 "e6744dc81ac988622e5513a4a1993500867055c20dc1f3216393f1362fe26dad"
     end
     on_intel do
       url "https://github.com/heisensim/heisensim/releases/download/v#{version}/heisensim-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "3bc34427ebe4b1931691ef4d65e044fb6aa78cf3475b8a31663ce24f19192375"
+      sha256 "6c13d3ee3601c7c98475f68e453be06e776ca9756dccf17b2ccb9cbd995b795d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/heisensim/heisensim/releases/download/v#{version}/heisensim-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a9485acc2806733aef0075444917a5f065050ca9ddc9f2235350fa9423d26d0c"
+      sha256 "ca161d42b2cea00747bc91c294e8ec63e0742f4d8674427723ab16292f581a14"
     end
     on_intel do
       url "https://github.com/heisensim/heisensim/releases/download/v#{version}/heisensim-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e45404bde7a2202a417f7a87a994b8a5d7800d3e496cb50ea61e5a5dc52cac82"
+      sha256 "14cbdae05cb447192683c62e08fc647c6adf35b7fe3dffc4faf7ea746500d8d0"
     end
   end
 
